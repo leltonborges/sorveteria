@@ -2,6 +2,12 @@ body {
   background: #dcdcdc;
 }
 
+.jumbotron h1{
+    font-weight: 500;
+    color: #202020;
+    text-shadow:  4px -4px 8px #9e9393;
+}
+
 .carousel-caption {
   color: #02244b;
   font-family: "Roboto", sans-serif;

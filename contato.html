@@ -48,22 +48,62 @@
             data-target="#navbarToggleExternalContent"
             aria-controls="navbarToggleExternalContent"
             aria-expanded="false"
-            aria-label="Toggle navigation">
+            aria-label="Toggle navigation"
+          >
             <span class="navbar-toggler-icon"></span>
           </button>
         </nav>
       </div>
       <div class="jumbotron mt-5">
         <div class="container">
-          <h1 class="display-4">Sorveteria Delicia</h1>
+          <h1 class="display-4">Entre em contanto conosco</h1>
           <p class="lead">
-            Marca mundialmente conhecida, a Delicias é famosa também pelos altos
-            preços dos potes à venda em supermercados.
+            Sempre estamos abertos para lhe receber.
           </p>
         </div>
       </div>
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="/">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Contato</li>
+        </ol>
+      </nav>
     </header>
-
+    <section class="container">
+      <form>
+        <div class="form-group">
+          <label for="exampleFormControlInput1">Email</label>
+          <input
+            type="email"
+            class="form-control"
+            id="exampleFormControlInput1"
+            placeholder="name@example.com"
+          />
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlSelect1">Nivel de sastisfação</label>
+          <select class="form-control" id="exampleFormControlSelect1" required>
+            <option selected>selecione</option>
+            <option value="1">Muito insatisfeito</option>
+            <option value="2">Insatisfeito</option>
+            <option value="3">Satisfeito</option>
+            <option value="4">Muito satisfeito</option>
+            <option value="5">Super satisfeito</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1"
+            >Escreva suas Criticas/Sugestões/Elogios</label
+          >
+          <textarea
+            class="form-control"
+            id="exampleFormControlTextarea1"
+            rows="3"
+          ></textarea>
+        </div>
+        <button type="button" class="btn btn-outline-success">Enviar</button>
+      </form>
+    </section>
 
     <div class="fixed-bottom">
       <footer
@@ -71,7 +111,8 @@
           navbar navbar-expand-lg navbar-dark
           bg-secondary
           justify-content-end
-        ">
+        "
+      >
         <p>2021&copy;</p>
       </footer>
     </div>
