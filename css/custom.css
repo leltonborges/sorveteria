@@ -33,12 +33,20 @@ section.custom-card {
 
 footer {
   color: #fff;
-  height: 30px;
+  height: 50px;
 }
 
 footer p {
   padding-top: 10px;
 }
+
+#footer-position {
+  width: 100%;
+  height: 50px;
+  background-color: #02244b;
+  margin-top: 10px;
+}
+
 #logo {
   width: 230px;
   margin: 0;
@@ -64,9 +72,10 @@ footer p {
 }
 
 @media (max-width: 520px) {
-  .jumbotron .container{
+  .jumbotron .container {
     flex-direction: column;
   }
+
   #logo {
     width: 100%;
   }

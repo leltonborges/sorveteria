@@ -17,6 +17,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="css/custom.css" />
+    <link rel="stylesheet" href="css/slide.css" />
 
     <title>Delícias</title>
   </head>
@@ -142,8 +143,7 @@
         </a>
       </div>
     </section>
-    <section class="container mb-5 mt-2 pb-4 custom-card">
-      <!-- <div class="card-group d-block"> -->
+    <section class="container mt-2 pb-4 custom-card">
       <div class="card-group d-flex flex-wrap">
         <div class="card m-1 shadow-lg">
           <img src="images/product1.png" class="card-img-top" alt="..." />
@@ -511,7 +511,38 @@
         </div>
       </div>
     </section>
+    <section id="slide-container" class="container">
+      <div class="testemunhos" >
+        <i class="slider__image fa fa-comments"></i>
+        <h2>Testemunhos</h2>
+      </div>
+      <div class="slider">
+        <input type="radio" name="slider" title="slide1" checked="checked" class="slider__nav"/>
+        <input type="radio" name="slider" title="slide2" class="slider__nav"/>
+        <input type="radio" name="slider" title="slide3" class="slider__nav"/>
+        <input type="radio" name="slider" title="slide4" class="slider__nav"/>
+        <div class="slider__inner">
+          <div class="slider__contents"><i class="slider__image fa fa-codepen"></i>
+            <h2 class="slider__caption">Marcos Novaes</h2>
+            <p class="slider__txt">Comemorar 40 anos é para empresas especiais. temos a satisfação de fazer parte dessa história bem sucedida. Independente das dificuldades e  incerteza, estaremos lado a lado, como empresa parceira, mas acima de tudo, como amigo que junto construímos algo duradouro.</p>
+          </div>
+          <div class="slider__contents"><i class="slider__image fa fa-user"></i>
+            <h2 class="slider__caption">Luiz Gonzatti</h2>
+            <p class="slider__txt">Ao longo destes anos, a Sorveteria Delicias tem sido uma parceira muito importante para a região. Se hoje somos uma marca muito forte no centro-oeste do Brasil, somos devido ao grande trabalho que fizemos. Somos muito felizes por fazer parte desta equipe vencedora.</p>
+          </div>
+          <div class="slider__contents"><i class="slider__image fa fa-codepen"></i>
+            <h2 class="slider__caption">Ronaldo Coelho</h2>
+            <p class="slider__txt">Nossos comprimentos e nosso agradecimento por toda a dedicação e pelo trabalho realizado por esta competente equipe profissional da Sorveteria Delícias. Que possamos celebrar muitas conquistas e continuamos a trabalhar em conjunto cada vez mais</p>
+          </div>
+          <div class="slider__contents"><i class="slider__image fa fa-diamond"></i>
+            <h2 class="slider__caption">Ulysses Amorim</h2>
+            <p class="slider__txt">Feliz aniversário a toda a equide da Sorveteria Delícias. Todos vocês colhendo os merecidso frutos do sucesso. Agradecemos por todas as oportunidades que nos deram. Esperamos que nossa parceria se perpetue por muitos anos.</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <div id="footer-position"></div>
     <div class="fixed-bottom">
       <footer
         class="
@@ -538,5 +569,7 @@
       integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+    <script src="js/slider.js"></script>
   </body>
 </html>
