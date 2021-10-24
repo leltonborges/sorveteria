@@ -2,10 +2,10 @@ body {
   background: #dcdcdc;
 }
 
-.jumbotron h1{
-    font-weight: 500;
-    color: #202020;
-    text-shadow:  4px -4px 8px #9e9393;
+.jumbotron h1 {
+  font-weight: 500;
+  color: #202020;
+  text-shadow: 4px -4px 8px #9e9393;
 }
 
 .carousel-caption {
@@ -23,6 +23,7 @@ section.custom-card {
 
 .jumbotron {
   font-family: "Zen Old Mincho", serif;
+  margin-bottom: 10px;
 }
 
 .card {
@@ -30,13 +31,43 @@ section.custom-card {
   margin-top: 5px;
 }
 
-footer{
-    color: #fff;
+footer {
+  color: #fff;
+  height: 30px;
+}
+
+footer p {
+  padding-top: 10px;
+}
+#logo {
+  width: 230px;
+  margin: 0;
 }
 
 @media (max-width: 860px) {
   .card {
     min-width: 40%;
     margin-top: 5px;
+  }
+
+  #logo {
+    width: 230px;
+  }
+
+  footer p {
+    padding: 0px;
+  }
+
+  section.container {
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 520px) {
+  .jumbotron .container{
+    flex-direction: column;
+  }
+  #logo {
+    width: 100%;
   }
 }
