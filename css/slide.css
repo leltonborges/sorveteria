@@ -6,6 +6,13 @@
     box-sizing: border-box;
 }
 
+#slide-container{
+    min-width: 40vw;
+    min-height: 40vh;
+    padding: 5px;
+    margin: 10px;
+}
+
 .testemunhos {
     font-family: "Zen Old Mincho", serif;
     display: flex;
@@ -18,7 +25,8 @@
 }
 
 .slider {
-    height: 40vh;
+    height: 45vh;
+    font-size: 1.3rem;
     position: relative;
     overflow: hidden;
     display: -webkit-box;
@@ -137,15 +145,29 @@
     max-width: 800px;
 }
 
-@media (max-width: 520px) {
+@media (max-width: 550px) {
     .slider {
-        height: 45vh;
+        height: 55vh;
     }
 }
 
-@media (max-width: 350px) {
+@media (max-width: 450px) {
     .slider {
-        height: 50vh;
+        height: 65vh;
+    }
+}
+
+@media (max-width: 370px) {
+    .slider {
+        height: 80vh;
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 290px) {
+    .slider {
+        height: 85vh;
+        font-size: 1.1rem;
     }
 }
 
